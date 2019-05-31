@@ -144,8 +144,15 @@
     <Content Include="Images\logo-w.png" />
     <Content Include="Images\nico.PNG" />
     <Content Include="Images\nico2.PNG" />
+    <Content Include="Images\Profile\Doctor1.PNG" />
+    <Content Include="Images\Profile\Doctor2.PNG" />
+    <Content Include="Images\Profile\manager1.PNG" />
+    <Content Include="Images\Profile\worker1.PNG" />
+    <Content Include="Images\Profile\worker2.PNG" />
+    <Content Include="Images\Profile\worker3.PNG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Data\report_dataset.xlsx" />
     <None Include="Properties\PublishProfiles\CPSC5051-Team1Project - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

@@ -3,18 +3,138 @@
     ViewBag.Title = "Index";
 }
 
-<iframe width="1200" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiYzA4YTNhZGEtZTYxYy00NjhhLTg1ZTUtNWEzZDk1MjFlZjIwIiwidCI6ImJjMTBlMDUyLWIwMWMtNDg0OS05OTY3LWVlN2VjNzRmYzlkOCIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
-<a href="~/Data/report_dataset.xlsx" class="btn btn-primary" role="button" aria-pressed="true">Download </a>
-<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    Add
-</a>
-<div class="collapse" id="collapseExample">
-    <div class="card card-body">
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlFile1">Example file input</label>
-                <input type="file" class="form-control-file" id="exampleFormControlFile1">
-            </div>
-        </form>
+<style>
+    td, th {
+    vertical-align: middle !important;
+    }
+
+ .nav{
+     display:none;
+    
+ }
+.left {
+         float:left;
+        height:100vh;
+        background: #337ab7;
+        display: inline-block;
+        white-space: nowrap;
+        width: 50px;
+        transition: width 1s ;
+    }
+
+.right {
+    display: inline-block;
+
+        width: 800px;
+        transition: width 1s;
+
+    }    
+
+.left:hover {
+        width: 250px;
+    }    
+    
+.item:hover {
+        background-color:#ccc;
+        }
+        
+.left .glyphicon {
+        margin:15px;
+        width:20px;
+        color:#fff;
+    }
+    
+.right .glyphicon {
+        color:#a9a9a9;
+    }
+span.glyphicon.glyphicon-refresh{
+    font-size:17px;
+    vertical-align: middle !important;
+    }
+    
+.item {
+        height:50px;
+        overflow:hidden;
+        color:#fff;
+    }
+.title {
+        background-color:#eee;
+        border-style:solid;
+        border-color:#ccc;
+        border-width:1px;
+        box-sizing: border-box;
+    }
+.search:hover {
+        border-color:#4aa9fb;
+        border-width:1px;
+    }
+.search {
+    padding:3px 8px 3px !important;
+    }
+input[type=search] {
+    padding: 10px 0px 10px;
+	border: 0px solid #fff;
+	background: #eee;
+	-webkit-appearance: none;
+    width:90%;
+    float:none;
+}
+input[type=search]:focus {
+    outline:none;
+    }
+.type{
+    height: 47px;;
+    }
+.date{
+    background-color:#f7f7f7
+    }
+.docdate {
+    vertical-align:bottom !important;
+    }
+.distr {
+    margin: 0 0 5px;
+    font-size: 12px;
+    }
+.ndoc {
+    margin: 0 0 5px;
+    }
+.storage {
+    margin: 0;
+    color: #aaa !important;
+    font-size: 12px;
+    }
+    
+.sideItem{
+    color: white;
+}
+    
+   
+
+</style>
+<div class="left">
+    <div class="item">
+        <span class="glyphicon glyphicon-th-large"></span>
     </div>
+    <div class="item">
+        <span class="glyphicon glyphicon-user"></span>
+        <a class="sideItem" href="/Home/Contact">Message</a>
+    </div>
+    <div class="item">
+        <span class="glyphicon glyphicon-log-out"></span>
+        testing2
+    </div>
+    <div class="item">
+        <span class="glyphicon glyphicon-download-alt"></span>
+        <a class="sideItem" href="~/Data/report_dataset.xlsx">Download</a>
+    </div>
+
+</div>
+<div class="right">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Report Portal</h1>
+            <p class="lead">Welcome back!</p>
+        </div>
+    </div>
+    <iframe width="1200" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiYzA4YTNhZGEtZTYxYy00NjhhLTg1ZTUtNWEzZDk1MjFlZjIwIiwidCI6ImJjMTBlMDUyLWIwMWMtNDg0OS05OTY3LWVlN2VjNzRmYzlkOCIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
 </div>

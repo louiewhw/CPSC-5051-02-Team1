@@ -147,9 +147,13 @@
     <Content Include="Images\Profile\Doctor1.PNG" />
     <Content Include="Images\Profile\Doctor2.PNG" />
     <Content Include="Images\Profile\manager1.PNG" />
+    <Content Include="Images\Profile\manager2.PNG" />
     <Content Include="Images\Profile\worker1.PNG" />
     <Content Include="Images\Profile\worker2.PNG" />
     <Content Include="Images\Profile\worker3.PNG" />
+    <Content Include="Images\Profile\worker4.PNG" />
+    <Content Include="Images\Profile\worker5.PNG" />
+    <Content Include="Images\Profile\worker6.PNG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Data\report_dataset.xlsx" />
@@ -182,6 +186,8 @@
     <Content Include="Views\Report\Index.cshtml" />
     <Content Include="Views\Contact\Doctor.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Contact\Manager.cshtml" />
+    <Content Include="Views\Contact\Rmanager.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

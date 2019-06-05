@@ -13,5 +13,13 @@ namespace Team1Project.Controllers
         {
             return View();
         }
+        public ActionResult Manager()
+        {
+            return View();
+        }
+        public ActionResult Rmanager()
+        {
+            return View();
+        }
     }
 }

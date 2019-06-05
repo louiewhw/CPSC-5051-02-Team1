@@ -148,6 +148,13 @@
     <Content Include="Images\Profile\Doctor2.PNG" />
     <Content Include="Images\Profile\manager1.PNG" />
     <Content Include="Images\Profile\manager2.PNG" />
+    <Content Include="Images\Profile\test1.PNG" />
+    <Content Include="Images\Profile\test2.PNG" />
+    <Content Include="Images\Profile\test3.PNG" />
+    <Content Include="Images\Profile\test4.PNG" />
+    <Content Include="Images\Profile\test5.PNG" />
+    <Content Include="Images\Profile\test6.PNG" />
+    <Content Include="Images\Profile\testfail.PNG" />
     <Content Include="Images\Profile\worker1.PNG" />
     <Content Include="Images\Profile\worker10.PNG" />
     <Content Include="Images\Profile\worker11.PNG" />

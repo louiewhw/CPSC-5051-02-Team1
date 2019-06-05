@@ -204,6 +204,7 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Contact\Manager.cshtml" />
     <Content Include="Views\Contact\Rmanager.cshtml" />
+    <Content Include="Views\Report\raw.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

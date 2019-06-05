@@ -13,5 +13,9 @@ namespace Team1Project.Controllers
         {
             return View();
         }
+        public ActionResult raw()
+        {
+            return View();
+        }
     }
 }
